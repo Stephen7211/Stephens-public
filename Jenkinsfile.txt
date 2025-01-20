@@ -2,7 +2,7 @@ pipeline {
     // add your slave label name
     agent { label 'slave-jenkin'}
     tools{
-        maven 'maven-test'
+        maven 'Maven-test'
     }
     stages {
         stage ('Checkout_SCM') {
